@@ -70,6 +70,7 @@ p {
 #palm-icon {
 	width: 15px;
 	margin: 5px;
+	display: none;
 }
 
 .blue-line {
@@ -78,6 +79,7 @@ p {
 	height: 4px;
 	position: relative;
 	top: 10px;
+	display: none;
 }
 
 .icon-line-h1-outercontainer {
@@ -171,13 +173,17 @@ letter-spacing: 3px;
 		#palm-icon {
 			width: 45px;
 			margin: 5px;
+			margin-left: -60px;
+    	display: block;
 		}
 		
 		.blue-line {
-			width: 135px;
+			width: 500px;
 			height: 6px;
 			position: relative;
 			top: 22px;
+			margin-right: 10px;
+    	display: block;
 		}
 		
 		.under-image-text {
